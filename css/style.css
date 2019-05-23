@@ -1052,6 +1052,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-transform: uppercase;
 }
 
+
+
+
+
+
+
+
 /* Clients Section
 --------------------------------*/
 
@@ -1685,3 +1692,181 @@ body.mobile-nav-active #mobile-nav-toggle {
     display: inline-block;
     margin: 100px auto;
   }
+
+ /* ----------------------------------------------------------------- */ 
+
+/* Estilos para modal Login */
+.modal-login {    
+    color: #636363;
+    width: auto;
+  }
+  .modal-login .modal-content {
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+  }
+  .modal-login .modal-header {
+    border-bottom: none;   
+    position: relative;
+    justify-content: center;
+  }
+  .modal-login h4 {
+    text-align: center;
+    font-size: 26px;
+    margin: 30px 0 -15px;
+  }
+  .modal-login .form-control:focus {
+    border-color: #70c5c0;
+  }
+  .modal-login .form-control, .modal-login .btn {
+    min-height: 40px;
+    border-radius: 3px; 
+  }
+  .modal-login .close {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+  } 
+  .modal-login .modal-footer {
+    background: #ecf0f1;
+    border-color: #dee4e7;
+    text-align: center;
+    justify-content: center;
+    margin: 0 -20px -20px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  .modal-login .modal-footer a {
+    color: #999;
+  }   
+  
+  .modal-login .avatar {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: -70px;
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    z-index: 9;
+    background: #60c7c1;
+    padding: 15px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  }
+  .modal-login .avatar img {
+    width: 100%;
+  }
+  .modal-login.modal-dialog {
+    margin-top: 80px;
+  }
+    .modal-login .btn {
+        color: #fff;
+        border-radius: 4px;
+    background: #60c7c1;
+    text-decoration: none;
+    transition: all 0.4s;
+        line-height: normal;
+        border: none;
+    }
+  .modal-login .btn:hover, .modal-login .btn:focus {
+    background: #45aba6;
+    outline: none;
+  }
+  .trigger-btn {
+    display: inline-block;
+    margin: 100px auto;
+  }
+  /* ----------------------------------------------------------------- */ 
+
+/* Estilos iconos en controles de formularios */
+
+  .inputWithIcon input[type="text"] {
+  padding-left: 40px;
+}
+
+.inputWithIcon input[type="password"] {
+  padding-left: 40px;
+}
+.inputWithIcon {
+  position: relative;
+}
+
+.inputWithIcon i {
+  position: absolute;
+  left: 0;
+  top: 0px;
+  padding: 12px 12px;
+  color: #aaa;
+  transition: 0.3s;
+}
+
+.inputWithIcon input[type="text"]:focus + i {
+  color: dodgerBlue;
+}
+
+.inputWithIcon input[type="password"]:focus + i {
+  color: dodgerBlue;
+}
+
+.inputWithIcon.inputIconBg i {
+  background-color: #aaa;
+  color: #fff;
+  padding: 9px 4px;
+  border-radius: 4px 0 0 4px;
+}
+
+.inputWithIcon.inputIconBg input[type="text"]:focus + i {
+  color: #fff;
+  background-color: dodgerBlue;
+}
+
+.inputWithIcon.inputIconBg input[type="password"]:focus + i {
+  color: #fff;
+  background-color: dodgerBlue;
+}
+
+/* ----------------------------------------------------------------- */ 
+
+/* Tablas */
+
+table{
+  border:1px solid black;
+  border-collapse:collapse ;
+  padding:0px;
+}
+
+th{
+  padding:2px;
+  border:1px solid black;  
+}
+
+td{
+  padding:2px;
+  border:1px solid black;
+  text-align:left;
+}
+
+tr:nth-child(even)
+{
+  background-color:white;
+}
+
+tr:nth-child(odd)
+{
+  background-color:#eee;
+}
+
+.bg{
+    background-color: white;
+    }  
+      
+.tablescroll {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 189px;
+    margin-right: -17px;
+}
+
+/* ----------------------------------------------------------------- */ 
